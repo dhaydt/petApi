@@ -126,7 +126,7 @@ const get = (req, res) => {
   });
 };
 
-router.get("/pets", get);
+router.get("/pet", get);
 
 // STORE IMG
 const index = function (req, res) {
